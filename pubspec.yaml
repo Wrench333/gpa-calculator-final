@@ -1,0 +1,48 @@
+name: gpa_calculator
+description: A new Flutter project.
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.5
+  firebase_core: ^2.23.0
+  firebase_auth: ^4.14.1
+  cloud_firestore: ^4.13.2
+  google_sign_in: ^6.1.6
+  shared_preferences: ^2.2.2
+  provider: ^6.0.4
+  pdf: ^3.10.6
+  printing: ^5.11.1
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.1
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: fonts/Barlow-Regular.ttf
+
+  # see https://flutter.dev/custom-fonts/#from-packages
